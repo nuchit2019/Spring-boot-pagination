@@ -44,8 +44,6 @@ public class SpringBootPaginationApplication {
 		lsEmployee.add(new Employee ("Nuchit19",  "Atjanawat19", "nuchit@outlook.com"));
 		lsEmployee.add(new Employee ("Nuchit20",  "Atjanawat20", "nuchit@outlook.com"));
 
-
-
 		employeeRepository.saveAll(lsEmployee);
 
 	}
