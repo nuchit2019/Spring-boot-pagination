@@ -36,14 +36,14 @@ spring:
 ```
 
 ### Run
-1. http://localhost:8080/h2 ... H2 Database console
-   ![alt text](https://github.com/nuchit2019/Spring-boot-pagination/blob/main/images/H2DatabaseConsole?raw=true)
+1. http://localhost:8080/employees
+2. http://localhost:8080/employees?pageSize=5
+3. http://localhost:8080/employees?pageSize=5&pageNo=1
+4. http://localhost:8080/employees?pageSize=5&pageNo=2
+5. http://localhost:8080/employees?pageSize=5&pageNo=1&sortBy=email
+6. http://localhost:8080/employees?pageSize=5&pageNo=1&sortBy=firstName
 
-2. http://localhost:8080/employees
-3. http://localhost:8080/employees?pageSize=5
-4. http://localhost:8080/employees?pageSize=5&pageNo=1
-5. http://localhost:8080/employees?pageSize=5&pageNo=2
-6. http://localhost:8080/employees?pageSize=5&pageNo=1&sortBy=email
-7. http://localhost:8080/employees?pageSize=5&pageNo=1&sortBy=firstName
+http://localhost:8080/h2 ... H2 Database console
+   ![alt text]( https://github.com/nuchit2019/Spring-boot-pagination/blob/main/images/H2DatabaseConsole.jpg?raw=true)
 
 ### The end.
